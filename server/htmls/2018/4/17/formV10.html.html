@@ -1,0 +1,58 @@
+<html !Document>
+    <head>
+    <meta charset='utf-8'>
+    <title>html创建测试</title>
+    <link rel='stylesheet' href='/css/dist/font-awesome.min.css' />
+    </head>
+    <body>
+        <section class='main'>
+            <form action="/data" method="post">
+                <div class="question radioBox  ">
+        <label class='title'>问卷调查题目一 </label>
+        <div class="item">
+            <input type="radio" value='选项一' name='问卷调查题目一' >
+            选项一
+            
+        </div><div class="item">
+            <input type="radio" value='选项二' name='问卷调查题目一' >
+            选项二
+            
+        </div>
+    </div><div class="question checkboxBox  ">
+        <label class='title'>问卷调查题目二 </label>
+        <div class="item">
+        <input type="checkbox" value='选项一' name='问卷调查题目二' >
+        选项一
+        
+    </div><div class="item">
+        <input type="checkbox" value='选项二' name='问卷调查题目二' >
+        选项二
+        
+    </div><div class="item">
+        <input type="checkbox" value='选项三' name='问卷调查题目二' >
+        选项三
+        
+    </div>
+    </div><div class="question selectBox  ">
+        <label class='title'>问卷调查题目三 </label>
+        <div class='item'>
+            <select name='问卷调查题目三'><option value='选项一'>选项一</option><option value='选项二'>选项二</option></select>
+        </div>
+    </div><div class="question textBox  ">
+    <label class='title'>问卷调查题目四 </label>
+    <div class='item'>
+        <input type="text" value=""  name="问卷调查题目四" />
+    </div>
+    </div><div class="question textareaBox  ">
+    <label class='title'>请填写问题 </label>
+    <div class='item'>
+        <textarea cols="30" rows="10" value="" name="请填写问题"></textarea>
+    </div>
+</div>
+                <button class="submit">提交</button>
+            </form>
+        </section>
+    </body>
+    <script src='/css/dist/index.min.js'></script>
+    </html>
+    
