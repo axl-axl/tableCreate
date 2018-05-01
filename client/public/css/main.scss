@@ -1,0 +1,21 @@
+ul,li{
+    list-style-type:none;
+}
+a,a:link,a:hover,a:active,a:visited{
+    text-decoration:none;
+}
+html,body,div,p,section,head,footer,article,form,table,ul,li,a,h1,h2,h3,h4,h5,input,label,select,img{
+    margin:0 auto;
+    padding:0;
+    box-sizing:border-box;
+}
+input{
+    outline:none;
+}
+.clearfix{
+    &:after,&:before{
+        display:table;
+        content:'';
+        clear: both;
+    }
+}
