@@ -1,0 +1,66 @@
+<html !Document>
+    <head>
+    <meta charset='utf-8'>
+    <title>html创建测试</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0,minimum-scale=1.0,maximun-scale=1.0,user-scalable=no'>
+    <link rel='stylesheet' href='/css/dist/font-awesome.min.css' />
+    </head>
+    <body>
+        <section class='main'>
+            <form action="/data" method="post">
+                <div class="question radioBox  ">
+        <label class='title'>问题1 </label>
+        <div class="item">
+            <input type="radio" value='答案一' name='问题1' >
+            答案一
+            
+        </div><div class="item">
+            <input type="radio" value='答案二' name='问题1' >
+            答案二
+            
+        </div>
+    </div><div class="question checkboxBox  ">
+        <label class='title'>多选问题而 </label>
+        <div class="item">
+        <input type="checkbox" value='选项一1' name='多选问题而' >
+        选项一1
+        
+    </div><div class="item">
+        <input type="checkbox" value='选项二2' name='多选问题而' >
+        选项二2
+        
+    </div><div class="item">
+        <input type="checkbox" value='选项三3' name='多选问题而' data-son=3>
+        选项三3
+        
+    </div>
+    </div><div class="question radioBox  questionSon son3">
+        <label class='title'>问题3333 </label>
+        <div class="item">
+            <input type="radio" value='选项一1' name='问题3333' >
+            选项一1
+            
+        </div><div class="item">
+            <input type="radio" value='选项二2' name='问题3333' >
+            选项二2
+            
+        </div>
+    </div><div class="question radioBox  ">
+        <label class='title'>请填写问题44 </label>
+        <div class="item">
+            <input type="radio" value='选项一1' name='请填写问题44' >
+            选项一1
+            
+        </div><div class="item">
+            <input type="radio" value='选项二2' name='请填写问题44' >
+            选项二2
+            
+        </div>
+    </div>
+                <button class="submit">提交</button>
+            </form>
+        </section>
+    </body>
+    <script src='/css/dist/index.min.js'></script>
+    </html>
+    

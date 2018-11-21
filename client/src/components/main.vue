@@ -56,9 +56,9 @@ import {mapMutations} from 'vuex'
 export default {
     data(){
         return{
-            editorIndex:-1,
-            title:'',
-            contents:[]
+            editorIndex:-1,//当前所处的item
+            title:'',//表名
+            contents:[]//所有的问题集合
         }
     },
     components: {
@@ -82,7 +82,7 @@ export default {
             this.addArrayId();
             contents.push(item);
             Vue.set(this,'contents',contents)
-            Vue.set(this,'editorIndex',contents.length-1)
+            // Vue.set(this,'editorIndex',contents.length-1)
         },
         _editorIndex(index){//修改问题
             Vue.set(this,'editorIndex',index)

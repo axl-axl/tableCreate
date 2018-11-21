@@ -1,0 +1,53 @@
+<html !Document>
+    <head>
+    <meta charset='utf-8'>
+    <title>html创建测试</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0,minimum-scale=1.0,maximun-scale=1.0,user-scalable=no'>
+    <link rel='stylesheet' href='/css/dist/font-awesome.min.css' />
+    </head>
+    <body>
+        <section class='main'>
+            <form action="/data" method="post">
+                <div class="question radioBox verify ">
+        <label class='title'>11.10-11.11您是否有时间 <i class='fa fa-asterisk'></i></label>
+        <div class="item">
+            <input type="radio" value='有' name='11.10-11.11您是否有时间' data-son=2>
+            有
+            
+        </div><div class="item">
+            <input type="radio" value='没有' name='11.10-11.11您是否有时间' data-son=3>
+            没有
+            
+        </div>
+    </div><div class="question textBox  questionSon son2">
+    <label class='title'>没有时间，请您退场，后面的你都不用再看了 </label>
+    <div class='item'>
+        <input type="text" value=""  name="没有时间，请您退场，后面的你都不用再看了" />
+    </div>
+    </div><div class="question checkboxBox  ">
+        <label class='title'>很高心你有时间，请问你有几个小伙伴 </label>
+        <div class="item">
+        <input type="checkbox" value='我孤家寡人还需要小伙伴？？没有' name='很高心你有时间，请问你有几个小伙伴' >
+        我孤家寡人还需要小伙伴？？没有
+        
+    </div><div class="item">
+        <input type="checkbox" value='我金童玉女当然是两人' name='很高心你有时间，请问你有几个小伙伴' >
+        我金童玉女当然是两人
+        
+    </div><div class="item">
+        <input type="checkbox" value='我基友遍天下，当然是5+' name='很高心你有时间，请问你有几个小伙伴' >
+        我基友遍天下，当然是5+
+        
+    </div><div class="item">
+        <input type="checkbox" value='' name='很高心你有时间，请问你有几个小伙伴' >
+        其他
+        <input type='text' class='other' >
+    </div>
+    </div>
+                <button class="submit">提交</button>
+            </form>
+        </section>
+    </body>
+    <script src='/css/dist/index.min.js'></script>
+    </html>
+    

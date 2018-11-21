@@ -10,6 +10,6 @@ const staticPath = './htmls';
 
 app.use(koaBody());
 app.use(cors());
-app.use(router.routes(),router.allowedMethods());
-app.use(static(path.join(__dirname,staticPath)))
-app.listen(880)
+app.use(router.routes(), router.allowedMethods());
+app.use(static(path.join(__dirname, staticPath)));
+app.listen(880);
